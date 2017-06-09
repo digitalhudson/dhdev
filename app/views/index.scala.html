@@ -1,42 +1,39 @@
 @(account: Option[Entity[Account]])(implicit webJarAssets: WebJarAssets)
 @_template(account) {
     <div class="row column">
-        <h1>Welcome to the Template Site!</h1>
+        <h1>Welcome to Digital Hudson!</h1>
         <p>
-            The <a href="https://github.com/tetrao-eu/template-site">Template Site</a> is a project created by
-            <a href="https://tetrao.eu">Tetrao</a>, a technology startup company specialized in Internet intelligent
-            process automation. Our mission is enabling connections between people and businesses radically
-            faster in an efficient and cost-effective way.
+            Digital Hudson is a project created by Tim Moore to achieve certain goals.
         </p>
     </div>
     <div class="row">
         <div class="medium-6 columns">
             <a href="https://pixabay.com/photo-1417278/">
-                <img class="thumbnail" src="@routes.Assets.at("img/cat-1417278_1280.jpg")" alt="a cat" />
+                <img src="@routes.Assets.at("img/mobile-page.jpg")" alt="Digital Hudson" />
             </a>
         </div>
         <div class="medium-6 columns">
             <p>
-                This is an internal project that we decided to publish it to promote the use of a lot of open source
-                projects we love and we use every day and make our job more easy.
+                You can learn more about this project from Tim and one day it promises to make your job more easy.
             </p>
             <p>
-                <strong>Template Site</strong> is an skeleton of a web application based on:
+                Digital Hudson is a web application based on:
             </p>
             <ul>
-                <li><a href="http://www.scala-lang.org/">Scala as programming language</a></li>
-                <li><a href="http://www.scala-sbt.org/">SBT as build tool</a></li>
-                <li><a href="https://www.playframework.com/">Play Framework as web application framework</a></li>
+                <li><a href="http://www.scala-lang.org/">Scala, aka Master's level Java, as the programming language</a></li>
+                <li><a href="http://www.scala-sbt.org/">The infamous SBT build tool</a></li>
+                <li><a href="https://www.playframework.com/">Play Framework for a web application framework</a></li>
                 <li><a href="https://github.com/t2v/play2-auth/">Play2-auth as authentication module for Play</a></li>
-                <li><a href="http://www.postgresql.org">PostgreSQL as database</a></li>
-                <li><a href="http://slick.lightbend.com">Slick as database access layer</a></li>
+                <li><a href="http://www.postgresql.org">PostgreSQL, the open source world's greatest database</a></li>
+                <li><a href="http://slick.lightbend.com">Slick as a functional relational database mapper for the access layer</a></li>
                 <li><a href="https://github.com/tminglei/slick-pg">
                     Slick-pg extending slick for support PostgreSQL data types</a></li>
                 <li><a href="http://foundation.zurb.com/">Foundation as front-end framework</a></li>
+                <li><a href="http://github.com/">For version control</a></li>
+                <li><a href="http://heroku.com/">SalesForce's Heroku for PaaS functionality</a></li>
             </ul>
             <p>
-                Check the <code>build.sbt</code> file to get the different versions used. Our intention is to keep
-                updated this project as new versions of this software are published.
+                Check back here to see progress over the next couple of months.
             </p>
         </div>
     </div>
